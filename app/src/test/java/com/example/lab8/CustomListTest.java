@@ -44,10 +44,9 @@ public class CustomListTest {
         list.add(city);
         list.delete(city);
         assertFalse(list.hasCity(city));
-        //assertThrows(IllegalArgumentException.class, () -> {
-            //cityList.delete(city);
-        //});
     }
+
+
 
 
 }
