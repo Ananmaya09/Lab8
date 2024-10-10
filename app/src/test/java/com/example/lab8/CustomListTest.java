@@ -41,7 +41,7 @@ public class CustomListTest {
     void testDelete() {
         list = MockCityList();
         City city = new City("Leduc", "Alberta");
-        list.add(city);
+        list.addCity(city);
         list.delete(city);
         assertFalse(list.hasCity(city));
     }
